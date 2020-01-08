@@ -1,0 +1,20 @@
+{
+  "name": "drallan/za_identification",
+  "description": "Verify the structure of a South African identification number",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dale Allan",
+      "email": "dale@cybercat.co.za"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {"Drallan\\ZaIdentification\\": "src/"}
+  },
+  "require": {
+    "php": ">=5.4.0"
+  }
+}
+
